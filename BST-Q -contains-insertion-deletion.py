@@ -5,7 +5,7 @@ class BST:
         self.value = value
         self.left = None
         self.right = None
-
+#checking VScode
     def getMinValue(self):
         if self.left is None:
             return self.value
