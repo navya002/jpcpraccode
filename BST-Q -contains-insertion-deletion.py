@@ -5,9 +5,7 @@ class BST:
         self.value = value
         self.left = None
         self.right = None
-    def check():
-        return 0
-        
+
     def getMinValue(self):
         if self.left is None:
             return self.value
